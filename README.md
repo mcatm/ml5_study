@@ -14,6 +14,18 @@ https://ml5js.org/
 
 ---
 
+## ちょっとしたデモ
+
+```sh
+$ php -S localhost:8888
+```
+
+- 単純な画像解析：http://localhost:8888/001.html
+- 画像を変更可能にした：http://localhost:8888/002.html
+- Webカメラでビデオ解析：http://localhost:8888/003-video.html
+
+---
+
 ## できること
 
 ### `imageClassifier()`
@@ -51,8 +63,8 @@ https://ml5js.org/
 > You can train your own models using this tutorial or use this set of pretrained models. More on this soon!
 
 - DEMO
-  - [Text Generation with LSTM · ml5js](https://ml5js.org/docs/lstm-example)
-  - [Interactive Text Generation LSTM · ml5js](https://ml5js.org/docs/lstm-interactive-example)
+  - [**Text Generation with LSTM · ml5js**](https://ml5js.org/docs/lstm-example)
+  - **[Interactive Text Generation LSTM · ml5js](https://ml5js.org/docs/lstm-interactive-example)**
 - [LSTMGenerator() · ml5js](https://ml5js.org/docs/LSTMGenerator)
 
 ### `pitchDetection()`
@@ -70,7 +82,7 @@ https://ml5js.org/
 > PoseNet can be used to estimate either a single pose or multiple poses, meaning there is a version of the algorithm that can detect only one person in an image/video and one version that can detect multiple persons in an image/video.
 
 - DEMO
-  - [PoseNet with Webcam · ml5js](https://ml5js.org/docs/posenet-webcam)
+  - [**PoseNet with Webcam · ml5js**](https://ml5js.org/docs/posenet-webcam)
 - [poseNet() · ml5js](https://ml5js.org/docs/PoseNet)
 
 ### `styleTransfer()`
@@ -80,8 +92,8 @@ https://ml5js.org/
 > You can train your own images following this tutorial. More on this soon!
 
 - DEMO
-  - [Style Transfer · ml5js](https://ml5js.org/docs/style-transfer-image-example)
-  - [Style Transfer with Webcam · ml5js](https://ml5js.org/docs/style-transfer-webcam-example)
+  - **[Style Transfer · ml5js](https://ml5js.org/docs/style-transfer-image-example)**
+  - [**Style Transfer with Webcam · ml5js**](https://ml5js.org/docs/style-transfer-webcam-example)
 - [styleTransfer() · ml5js](https://ml5js.org/docs/StyleTransfer)
 
 ### `word2vec()`
@@ -99,7 +111,7 @@ https://ml5js.org/
 > Prior detection systems repurpose classifiers or localizers to perform detection. They apply the model to an image at multiple locations and scales. High scoring regions of the image are considered detections. We use a totally different approach. We apply a single neural network to the full image. This network divides the image into regions and predicts bounding boxes and probabilities for each region. These bounding boxes are weighted by the predicted probabilities.
 
 - DEMO
-  - [YOLO with Webcam · ml5js](https://ml5js.org/docs/yolo-webcam)
+  - [**YOLO with Webcam · ml5js**](https://ml5js.org/docs/yolo-webcam)
 - [YOLO() · ml5js](https://ml5js.org/docs/YOLO)
 
 ---
