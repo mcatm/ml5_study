@@ -12,7 +12,7 @@ https://ml5js.org/
 >
 > The library is supported by code examples, tutorials, and sample datasets with an emphasis on ethical computing. Bias in data, stereotypical harms, and responsible crowdsourcing are part of the documentation around data collection and usage.
 
-------
+---
 
 ## できること
 
@@ -102,11 +102,11 @@ https://ml5js.org/
   - [YOLO with Webcam · ml5js](https://ml5js.org/docs/yolo-webcam)
 - [YOLO() · ml5js](https://ml5js.org/docs/YOLO)
 
-------
+---
 
 ## 用語
 
 - Ml5.js
 - MobileNet
   - Pre-trainedなデータを提供
-  - [Google、TensorFlow向けモバイルファーストコンピュータ画像モデルをオープンソース化 - THE BRIDGE（ザ・ブリッジ）
+  - [Google、TensorFlow向けモバイルファーストコンピュータ画像モデルをオープンソース化 - THE BRIDGE（ザ・ブリッジ）](http://thebridge.jp/2017/06/google-open-sources-mobile-first-computer-vision-models-for-tensorflow)
