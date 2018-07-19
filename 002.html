@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Getting Started with ml5.js</title>
+<script src="https://unpkg.com/ml5"></script>
+
+<style>
+
+p > img {
+  max-width: 800px;
+  height: auto;
+}
+
+</style>
+</head>
+
+<body>
+<h1>Image classification using MobileNet</h1>
+<p>The MobileNet model labeled this as
+<span id="result">...</span> with a confidence of
+<span id="probability">...</span></p>
+
+<p><img src=""
+ crossorigin="anonymous" id="image" width="400"></p>
+
+<p>
+<input type="file" id="file">
+</p>
+
+<script>
+
+const d = document;
+
+// The image we want to classify
+const image = d.getElementById('image');
+// The result tag in the HTML
+const result = d.getElementById('result');
+// The probability tag in the HTML
+const probability = d.getElementById('probability');
+
+const file = d.getElementById('file');
+
+const reader = new FileReader();
+
+// Initialize the Image Classifier method with MobileNet
+const classifier = ml5.imageClassifier('MobileNet');
+
+// Make a prediction with the selected image
+// This will return an array with a default of 10 options with their probabilities
+file.addEventListener('change', function(e) {
+  reader.readAsDataURL(e.target.files[0]);
+});
+
+reader.addEventListener('load', function() {
+  image.src = reader.result;
+
+  classifier.predict(image, function(results) {
+    result.innerText = results[0].className;
+    probability.innerText = results[0].probability.toFixed(4);
+  });
+});
+
+</script>
+</body>
+</html>
