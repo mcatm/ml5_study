@@ -12,6 +12,12 @@ https://ml5js.org/
 >
 > The library is supported by code examples, tutorials, and sample datasets with an emphasis on ethical computing. Bias in data, stereotypical harms, and responsible crowdsourcing are part of the documentation around data collection and usage.
 
+### MobileNet
+
+> Google は本日（6月14日）、スマートフォンの消費電力を抑えつつも画像認識の改善を支援する新たなモデルをリリースした。[MobileNets と呼ばれる](https://research.googleblog.com/2017/06/mobilenets-open-source-models-for.html)事前学習済みの画像認識モデルでは、開発者はサイズや精度の異なる各モデルからアプリケーションのニーズに応じて最適なモデルを選択できる。
+
+[Google、TensorFlow向けモバイルファーストコンピュータ画像モデルをオープンソース化 - THE BRIDGE（ザ・ブリッジ）](http://thebridge.jp/2017/06/google-open-sources-mobile-first-computer-vision-models-for-tensorflow)
+
 ---
 
 ## ちょっとしたデモ
